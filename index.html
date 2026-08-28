@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>For My Sister ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="floating">♡　✦　🌸　✦　♡　✦　🌸</div>
+
+    <main>
+      <section class="page active" id="intro">
+        <div class="pill">PRIVATE SISTER TEST™</div>
+        <div class="hero-icon">🎀</div>
+        <p class="kicker">Attention, Sister!</p>
+        <h1>Before you receive<br /><em>your Rakhi gift...</em></h1>
+        <p class="lead">
+          You have to pass 5 very serious questions.<br /><small
+            >No cheating. 👀</small
+          >
+        </p>
+        <button class="main-btn" id="startBtn">Start the Test →</button>
+      </section>
+
+      <section class="page" id="quiz">
+        <div class="quiz-head">
+          <span class="pill">SISTER VERIFICATION</span
+          ><b id="counter">01 / 05</b>
+        </div>
+        <div class="progress"><span id="progress"></span></div>
+        <div class="question-card">
+          <div class="qicon" id="qicon">👑</div>
+          <p class="kicker" id="qnum">QUESTION 01</p>
+          <h2 id="question"></h2>
+          <p class="hint" id="hint"></p>
+          <div class="choices" id="choices">
+            <button class="choice yes" id="yes" type="button">YES ❤️</button>
+            <button class="choice no" id="no" type="button">NO 😂</button>
+          </div>
+          <div class="attempt-msg" id="attemptMsg" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="page" id="photos">
+        <div class="pill">VERIFICATION COMPLETE ✓</div>
+        <div class="hero-icon">🏆</div>
+        <p class="kicker">Official Result</p>
+        <h2>Okay fine...<br /><em>you're a pretty great sister.</em> ❤️</h2>
+        <p class="lead">You survived the world's most unnecessary test. 😂</p>
+        <div class="photo-wall">
+          <img src="assets/sister1.jpg" alt="Sister photo 1" />
+          <img src="assets/sister2.jpg" alt="Sister photo 2" />
+          <img src="assets/sister3.jpg" alt="Sister photo 3" />
+        </div>
+        <p class="note">
+          Replace <b>sister1.jpg</b>, <b>sister2.jpg</b>,
+          <b>sister3.jpg</b> with your photos.
+        </p>
+        <button class="main-btn" id="puzzleBtn">One Last Challenge 🧩 →</button>
+      </section>
+
+      <section class="page" id="puzzlePage">
+        <div class="pill">FINAL CHALLENGE</div>
+        <p class="kicker">Rakhi Puzzle</p>
+        <h2>Fix the picture. 🧩</h2>
+        <p class="lead">
+          Tap any two pieces to swap them.<br />I made it a little difficult. 😈
+        </p>
+        <div class="puzzle" id="puzzle"></div>
+        <div class="puzzle-info">
+          Swaps: <b id="swaps">0</b>　<span id="puzzleMsg"
+            >You can do it. Probably. 😂</span
+          >
+        </div>
+        <button class="main-btn hidden" id="giftBtn">
+          I earned my gift 🎁 →
+        </button>
+      </section>
+
+      <section class="page" id="gift">
+        <div class="pill">DELIVERY COMPLETE</div>
+        <div class="hero-icon">🎁</div>
+        <p class="kicker">Your Extremely Expensive Gift</p>
+        <h2>Happy Raksha Bandhan,<br /><em>meri pyari behen.</em> ❤️</h2>
+        <div class="gift-image">
+          <img src="assets/gift.jpg" alt="Raksha Bandhan gifts" />
+        </div>
+        <div class="letter">
+          <p>Door hoon, so I made this little surprise for you instead.</p>
+          <p>
+            Hum kitna bhi lad lein, ek dusre ko kitna bhi irritate karein, tu
+            hamesha meri special sister rahegi. ❤️
+          </p>
+          <p class="signature">— Your annoying brother Aditya ❤️</p>
+        </div>
+        <button class="small-btn" id="replay">Replay the chaos ↻</button>
+      </section>
+    </main>
+    <footer>Made from far away, especially for you. ❤️</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
